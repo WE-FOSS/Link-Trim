@@ -18,3 +18,10 @@ A minimal web app for URL shortner service
 
 # MongoDB Database Name
 - DNS-map
+
+# Post Call Body 
+{
+    "inputURL" : <input_url>,
+    "inputText" : <input_text>,
+    "outputText" : <output_text>
+}
