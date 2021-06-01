@@ -5,9 +5,12 @@ const urlSchema = new mongoose.Schema({
     inputURL:{
         type:String,
     },
-    outputURL:{
+    inputText:{
         type:String,
     },
+    outputText:{
+        type:String,
+    }
 },{
     writeConcern: {
         w: 'majority',

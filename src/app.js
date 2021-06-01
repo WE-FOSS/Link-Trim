@@ -16,8 +16,16 @@ app.get("/",(req,res)=>{
 
 // Create a new URL
 app.post("/url",(req,res)=>{
-    console.log(req.body);
-    const newDNS = new DNS(req.body)
+    const inputURL = req.body.inputURL;
+    const inputText = req.body.inputText;
+    const outputText = "https://localhost:3000/"+inputText;
+    const body = {
+        "inputURL" : inputURL,
+        "inputText" : inputText,
+        "outputText" : outputText
+    }
+    console.log(body)
+    const newDNS = new DNS(body)
     newDNS.save().then(()=>{
         res.send(newDNS);
     }).catch((e)=>{
