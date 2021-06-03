@@ -1,0 +1,232 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus {
+    outline: 0
+}
+ 
+.color-gray, .bullet-gray>li:before, .bullet-gray i {
+    color: var(--color-gray) !important;
+}
+.title-color {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    margin-bottom: 1.05rem;
+    text-transform: uppercase;
+}
+.clearfix {
+    clear: both;
+}
+ 
+br {
+    line-height: 0;
+}
+button:focus {
+    outline: none !important;
+}
+ html {
+    font-size: 20px;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Jost', sans-serif;
+    color: #606060;
+    font-size: 0.8rem;
+    background: #f9fafb;
+    overflow-x: hidden;
+    position: relative;
+}
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.container-fluid {
+    padding-left: 20px;
+    padding-right: 20px
+}
+ 
+body,
+li,
+address {
+    line-height: 1.4rem;
+}
+
+strong {
+    font-weight: bold;
+}
+p {
+    margin: 0 0 1rem
+}
+  
+strong {
+    font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    color: #404040;
+    font-weight: 500;
+    letter-spacing: normal;
+    margin-bottom: 0.8rem;
+}
+h1,
+.h1 {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+h2,
+.h2 {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+h3,
+.h3 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+h4,
+.h4 {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+h5,
+.h5 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-bottom: 0.6rem;
+}
+h6,
+.h6 {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+h1.text-uppercase,
+.h1.text-uppercase {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+h2.text-uppercase,
+.h2.text-uppercase {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+h3.text-uppercase,
+.h3.text-uppercase {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+h4.text-uppercase,
+.h4.text-uppercase {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+h5.text-uppercase,
+.h5.text-uppercase {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+h6.text-uppercase,
+.h6.text-uppercase {
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+  
+.hero {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    font-weight: 500;
+}
+ 
+.display-3 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: normal;
+}
+.display-4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+ 
+.page-title-wrapper .lead {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+.lead.larger {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+ 
+.inner {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+footer .inner {
+    padding-bottom: 5rem;
+}
+.divider svg {
+    vertical-align: bottom;
+}
+ 
+ 
+.white-wrapper {
+    background-color: #fff !important;
+}
+.light-wrapper {
+    background-color: #f9fafb !important;
+}
+ 
+.icon-blob-rose:after {
+    color: rgba(var(--rgb-rose), 0.25);
+}
+.icon-blob:after {
+    font-family: 'Snowlake' !important;
+    content: "\0041";
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+}
+.icon-blob i {
+    display: table-cell;
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    font-size: 1.6rem;
+}
+
+[class^="jam-"], [class*=" jam-"] {
+    font-family: 'Jam' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-blob-rose:after {
+    color: rgba(var(--rgb-rose), 0.25);
+}
+.icon-blob:after {
+    font-family: 'Snowlake' !important;
+    content: "\0041";
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+ 
