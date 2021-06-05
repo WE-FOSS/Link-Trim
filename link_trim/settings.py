@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'cbc0zr#r999cj=c9!+s5zy%t8j0q%$(%@c3+7oalmzx%h6nek9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -122,4 +122,3 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
 ]
-STATIC_ROOT = os.path.join(BASE_DIR,'assets')
