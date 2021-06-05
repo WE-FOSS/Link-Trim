@@ -1,3 +1,3 @@
 # Link-Trim
-Backend + Frontend
+Partial Frontend Views
 
