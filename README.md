@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+# Link-Trim
+A minimal web app for URL shortner service
+
+# Branches
+1. **Main** : <a href="https://github.com/WE-FOSS/Link-Trim/tree/main">Checkout</a>
+2. **Web-Services-API** : <a href="https://github.com/WE-FOSS/Link-Trim/tree/Web-Services-API">Checkout</a>
+=======
 # Link-Trim Web Service API 🚀
 
 <img src="https://cdn.discordapp.com/attachments/848998092518064153/849281320525758494/Logo---WeFoss.jpg" height=250px width=250px>
@@ -65,3 +73,4 @@
 - Varun
 - Bilalumrani
 - Fawaz
+>>>>>>> Web-Services-Api
