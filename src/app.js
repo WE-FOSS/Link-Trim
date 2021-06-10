@@ -16,10 +16,6 @@ app.use(express.json())
 app.use('/', allRoutes)
 
 
-
-
-
-
 app.listen(port,()=>{
     console.log(`Connection is setup at ${port}`);
 });

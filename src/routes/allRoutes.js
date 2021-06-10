@@ -42,7 +42,7 @@ router.post("/url", async (req,res)=>{
     const randomstring = nanoid(4);
     const inputURL = req.body.inputURL;
     const inputText = `${randomstring}-${req.body.inputText}`;
-    const outputText = inputText!== "" ? req.get('host')+"/"+inputText : req.get('host')+"/"+nanoid(10);
+    const outputText = inputText!== "" ? "localhost:3000"+"/"+inputText : "localhost:3000"+"/"+nanoid(10);
     
 
     const body = {
