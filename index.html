@@ -13,6 +13,7 @@
   <link rel="stylesheet" type="text/css" href="./css/type/type.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" type="text/css" href="./css/color/blue.css">
+  <script src="js/backend.js"></script>
 </head>
 <body>
   <div class="content-wrapper">
@@ -191,12 +192,11 @@
           <div class="space30"></div>
           <div class="row">
             <div class="col-md-6 offset-md-3">
-              <form class="fields-white">
                 <div class="input-group">
-                  <input type="text" value="" name="LINK" class="email form-control mb-0 mr-2 mb-sm-0" placeholder="Shorten you Link" required>
-                  <button type="submit" class="btn btn-rounded btn-default mr-0 mb-0 pull-right">Shorten</button>
+                  <input type="text" value="" id="input_url" name="link" class="email form-control mb-0 mr-2 mb-sm-0" placeholder="Shorten your Link" required>
+                  <button id="short-button" class="btn btn-rounded btn-default mr-0 mb-0 pull-right" onclick="shortLink()">Shorten</button>
                 </div>
-              </form>
+              
             </div>
             <!--/column -->
           </div>
