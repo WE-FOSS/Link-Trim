@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Link-Trim
 A minimal web app for URL shortner service
 
@@ -73,4 +72,3 @@ A minimal web app for URL shortner service
 - Varun
 - Bilalumrani
 - Fawaz
->>>>>>> Web-Services-Api
