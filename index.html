@@ -19,7 +19,7 @@
   <div class="content-wrapper">
     <nav class="navbar absolute transparent navbar-expand-lg nav-uppercase">
       <div class="container flex-row justify-content-center">
-        <div class="navbar-brand"><a href="index.html"><img src="#" srcset="./images/logo.png 1x, style/images/logo@2x.png 2x" alt="" /></a></div>
+        <div class="navbar-brand"><a href="index.html">Link Trim</a></div>
         <div class="navbar-other ml-auto order-lg-3">
             <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
               <li class="nav-item">
@@ -31,16 +31,16 @@
         <!-- /.navbar-other -->
         <div class="navbar-collapse offcanvas-nav">
           <div class="offcanvas-header d-lg-none d-xl-none">
-            <a href="index.html"><img src="#" srcset="style/images/logo-light.png 1x, ./images/logo-light@2x.png 2x" alt="" /></a>
+            <a href="index.html">Link Trim</a>
             <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
           </div>
           <ul class="navbar-nav mx-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Features</a></li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Pages</a></li>
-            <li class="nav-item"><a class="nav-link" href="#!">Elements</a></li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Portfolio</a></li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Blog</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#shorten">Short Link</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#org">About Org</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#cs">Feedback</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="https://github.com/WE-FOSS/Link-Trim">Contribute</a></li>
           </ul>
           <!-- /.navbar-nav -->
         </div>
@@ -158,7 +158,7 @@
 	               data-responsive_offset="on" style="z-index: 9;">We help our clients to shorten link by trimming them in shorter link!
 	          </div>
 			  <!-- /.tp-caption -->
-              <!-- <a class="tp-caption btn btn-l btn-default" 
+              <a class="tp-caption btn btn-l btn-default" 
 	               data-x="['left','left','left','center']" 
 	               data-y="middle" 
 	               data-hoffset="['50','30','30','0']"
@@ -167,8 +167,8 @@
 	               data-textAlign="['left','left','left','center']" 
 	               data-frames='[{"delay":2000,"speed":1200,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' 
 	               data-responsive="on" 
-	               data-responsive_offset="on" style="z-index: 9;" href="#">Try It For Free
-	          </a> -->
+	               data-responsive_offset="on" style="z-index: 9;" href="#shorten">Shorten Now !
+	          </a> 
 			  <!-- /.tp-caption -->
             </li>
           </ul>
@@ -179,7 +179,7 @@
       <!-- /.rev_slider_wrapper -->
     </div>
     <!-- /.wrapper -->
-    <div class="wrapper bg-opacity-default">
+    <div id="shorten" class="wrapper bg-opacity-default">
         <div class="container inner">
           <div class="row text-center">
             <div class="col-lg-8 offset-lg-2">
@@ -209,7 +209,7 @@
 
 
     
-    <div class="wrapper white-wrapper">
+    <div id="features" class="wrapper white-wrapper">
       <div class="container inner pt-100">
         <h2 class="title-color color-gray text-center">Features of Us?</h2>
         <h3 class="display-3 text-center">The full service we are offering is specifically <br class="d-none d-lg-block" />designed to meet your business needs.</h3>
@@ -218,25 +218,22 @@
           <div class="col-md-8 col-lg-4">
             <div class="icon icon-blob icon-blob-rose color-rose mb-20"> <i class="jam jam-layout"></i> </div>
             <h5>Trustable</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure nam harum obcaecati, autem neque?</p>
           </div>
           <!--/column -->
           <div class="col-md-8 col-lg-4">
             <div class="icon icon-blob icon-blob-blue color-blue mb-20"> <i class="jam jam-search"></i> </div>
             <h5>Unique Result</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, omnis in fugiat laboriosam vero obcaecati.</p>
           </div>
           <!--/column -->
           <div class="col-md-8 col-lg-4">
             <div class="icon icon-blob icon-blob-purple color-purple mb-20"> <i class="jam jam-task-list"></i> </div>
             <h5>Privacy</h5>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellat sunt facilis dolore, dignissimos sapiente!</p>
           </div>
           <!--/column -->
         </div>
         <!--/.row -->
         
-        <div class="space140"></div>
+        <div id="org" class="space140"></div>
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
             <figure><img src="#" srcset="./images/concept/concept1.png 1x, ./images/concept/concept1@2x.png 2x" alt="" /></figure>
@@ -282,7 +279,7 @@
         </div>
         <!--/.row -->
         
-    <div class="wrapper light-wrapper">
+    <div id="cs" class="wrapper light-wrapper">
       <div class="container inner">
         <h2 class="title-color color-gray text-center mb-30">Customer Stories</h2>
         <h3 class="display-3 text-center">Customer satisfaction is our major goal. <br class="d-none d-lg-block" />See what our customers are saying about us.</h3>
@@ -293,12 +290,12 @@
               <div class="item-inner">
                 <div class="box bg-white shadow">
                   <blockquote>
-                    <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt earum quibusdam impedit excepturi expedita dolor hic omnis dolore iure consequatur minus repellat, quam dolorum nobis!"</p>
+                    <p>"Great service ! I loved this product :)"</p>
                     <div class="blockquote-details">
                       <div class="img-blob blob1"><img src="./images/art/t1.jpg" alt="" /></div>
                       <div class="info">
-                        <h6 class="mb-0">TEST SUBJECT A</h6>
-                        <span class="meta mb-0">TEST POSITION A</span>
+                        <h6 class="mb-0">Rasheedah</h6>
+                        <span class="meta mb-0">Frontend Lead</span>
                       </div>
                     </div>
                   </blockquote>
@@ -312,12 +309,12 @@
               <div class="item-inner">
                 <div class="box bg-white shadow">
                   <blockquote>
-                    <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt earum quibusdam impedit excepturi expedita dolor hic omnis dolore iure consequatur minus repellat, quam dolorum nobis!"</p>
+                    <p>"Effectively shorten the link :)"</p>
                     <div class="blockquote-details">
                       <div class="img-blob blob1"><img src="./images/art/t2.jpg" alt="" /></div>
                       <div class="info">
-                        <h6 class="mb-0">TEST SUBJECT B</h6>
-                        <span class="meta mb-0">TEST POSITION B</span>
+                        <h6 class="mb-0">Pranav</h6>
+                        <span class="meta mb-0">Diving Growth Lead</span>
                       </div>
                     </div>
                   </blockquote>
@@ -331,12 +328,12 @@
               <div class="item-inner">
                 <div class="box bg-white shadow">
                   <blockquote>
-                    <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt earum quibusdam impedit excepturi expedita dolor hic omnis dolore iure consequatur minus repellat, quam dolorum nobis!"</p>
+                    <p>"Never Disappointed 100 % availability :>"</p>
                     <div class="blockquote-details">
                       <div class="img-blob blob1"><img src="./images/art/t3.jpg" alt="" /></div>
                       <div class="info">
-                        <h6 class="mb-0">TEST SUBJECT C</h6>
-                        <span class="meta mb-0">TEST POSITION C</span>
+                        <h6 class="mb-0">Tushar Verma</h6>
+                        <span class="meta mb-0">Backend Lead</span>
                       </div>
                     </div>
                   </blockquote>
@@ -345,64 +342,6 @@
               </div>
               <!-- /.item-inner -->
             </div>
-            <!-- /.item -->
-            <div class="item">
-                <div class="item-inner">
-                  <div class="box bg-white shadow">
-                    <blockquote>
-                      <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt earum quibusdam impedit excepturi expedita dolor hic omnis dolore iure consequatur minus repellat, quam dolorum nobis!"</p>
-                      <div class="blockquote-details">
-                        <div class="img-blob blob1"><img src="./images/art/t1.jpg" alt="" /></div>
-                        <div class="info">
-                          <h6 class="mb-0">TEST SUBJECT A</h6>
-                          <span class="meta mb-0">TEST POSITION A</span>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <!-- /.box -->
-                </div>
-                <!-- /.item-inner -->
-              </div>
-              <!-- /.item -->
-              <div class="item">
-                <div class="item-inner">
-                  <div class="box bg-white shadow">
-                    <blockquote>
-                      <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt earum quibusdam impedit excepturi expedita dolor hic omnis dolore iure consequatur minus repellat, quam dolorum nobis!"</p>
-                      <div class="blockquote-details">
-                        <div class="img-blob blob1"><img src="./images/art/t2.jpg" alt="" /></div>
-                        <div class="info">
-                          <h6 class="mb-0">TEST SUBJECT B</h6>
-                          <span class="meta mb-0">TEST POSITION B</span>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <!-- /.box -->
-                </div>
-                <!-- /.item-inner -->
-              </div>
-              <!-- /.item -->
-              <div class="item">
-                <div class="item-inner">
-                  <div class="box bg-white shadow">
-                    <blockquote>
-                      <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt earum quibusdam impedit excepturi expedita dolor hic omnis dolore iure consequatur minus repellat, quam dolorum nobis!"</p>
-                      <div class="blockquote-details">
-                        <div class="img-blob blob1"><img src="./images/art/t3.jpg" alt="" /></div>
-                        <div class="info">
-                          <h6 class="mb-0">TEST SUBJECT C</h6>
-                          <span class="meta mb-0">TEST POSITION C</span>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <!-- /.box -->
-                </div>
-                <!-- /.item-inner -->
-              </div>
-              <!-- /.item -->
           </div>
           <!-- /.owl-carousel -->
         </div>
@@ -412,15 +351,8 @@
             <div class="container inner pt-50 pb-50">
               <div class="widget"> <img src="#" srcset="./images/logo-light.png 1x, ./images/logo-light@2x.png 2x" alt="" />
                 <div class="space30"></div>
-                <p>© 2021 Team Foss. All rights reserved.</p>
+                <p>© 2021 Team We Foss. All rights reserved.</p>
                 <div class="space10"></div>
-                <ul class="social social-mute social-s ml-auto">
-                  <li><a href="#"><i class="jam jam-twitter"></i></a></li>
-                  <li><a href="#"><i class="jam jam-facebook"></i></a></li>
-                  <li><a href="#"><i class="jam jam-instagram"></i></a></li>
-                  <li><a href="#"><i class="jam jam-vimeo"></i></a></li>
-                  <li><a href="#"><i class="jam jam-youtube"></i></a></li>
-                </ul>
               </div>
               <!-- /.widget -->
             </div>
